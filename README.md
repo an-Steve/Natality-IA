@@ -5,7 +5,7 @@ Réalisé par ANTON NELCON Steve & CORTADA LUCAS - MASTER 1 INFORMATIQUE ET BIG 
 
 
 ##  Description
-Natality-IA est un projet de recherche et de développement en **Big Data** et **Intelligence Artificielle** appliqué à l’étude de la natalité.  
+Natality-IA est un projet  en apprentissage artificielle dans le cadre du Master Informatique et Big Data  appliqué à l’étude de la natalité.  
 L’objectif est d’analyser des données démographiques et de proposer des modèles prédictifs pour mieux comprendre les tendances de natalité à l’échelle internationale.
 
 ##  Fonctionnalités
