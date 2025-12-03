@@ -336,7 +336,7 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 ## → Remerciements
 
 - Université Paris 8 - Master Informatique et Big Data  Big Data
-- 
+
 ---
 
 **Dernière mise à jour :** 04 Décembre 2025
