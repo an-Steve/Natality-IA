@@ -211,10 +211,9 @@ Natality-IA/
 
 ## → Images du Projet 
 
-![alt text](image-1.png)
-<img width="991" height="557" alt="image" src="https://github.com/user-attachments/assets/f0880c7c-7430-4085-b99b-b3a263b7756f" />
-
-![alt text](image-2.png)
+<img width="400" alt="image-1" src="image-1.png" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/f0880c7c-7430-4085-b99b-b3a263b7756f" />
+<img width="400" alt="image-2" src="image-2.png" />
 
 ## →  Technologies utilisées
 
