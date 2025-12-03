@@ -18,8 +18,12 @@ from ProjetNatalite.config import PROCESSED_DATA_DIR, MODELS_DIR, RAW_DATA_DIR
 from ProjetNatalite.modeling import train, predict
 from ProjetNatalite import dataset
 
-# Configure loguru
-logger.remove(0)
+# Configure loguru (only if default handler exists)
+try:
+    logger.remove(0)
+except ValueError:
+    pass  # Handler already removed in config.py
+    
 logger.add(
     sys.stderr,
     format="<level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan> - <level>{message}</level>",

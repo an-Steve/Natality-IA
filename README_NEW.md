@@ -4,14 +4,14 @@
 
 ---
 
-## 🎯 Présentation du projet
+## 1.  Présentation du projet
 
 **Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
 Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -20,12 +20,12 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 git clone https://github.com/an-Steve/Natality-IA.git
 cd Natality-IA
 
-# 2. Create virtual environment (recommended)
+# 2. Création de l'environnement virtuel 
 python -m venv venv
 .\venv\Scripts\Activate.ps1  # Windows
 # source venv/bin/activate    # Linux/Mac
 
-# 3. Install dependencies
+# 3. Installation des  dependences
 pip install -r requirements.txt
 ```
 
@@ -48,7 +48,7 @@ python -m ProjetNatalite.main pipeline
 ### Generate Visualizations
 
 ```bash
-# Create plots and figures
+# Creation plots et  figures
 python -m ProjetNatalite.plots
 ```
 
@@ -134,7 +134,7 @@ Natality-IA/
 
 ---
 
-## 📈 Commandes principales
+##  Les  Commandes principales à exécuter 
 
 ### Pipeline complet
 ```bash
@@ -175,7 +175,7 @@ python -m ProjetNatalite.modeling.train \
 
 ---
 
-## 📊 Résultats attendus
+##  Résultats attendus
 
 Le modèle de régression linéaire produit :
 
@@ -191,7 +191,7 @@ Le modèle de régression linéaire produit :
 
 ---
 
-## 📊 Visualisations générées
+##  Visualisations générées
 
 Le module `plots.py` crée automatiquement :
 
@@ -203,7 +203,7 @@ Le module `plots.py` crée automatiquement :
 
 ---
 
-## 🔍 Exemples d'utilisation
+##  Exemples d'utilisation
 
 ### Utilisation en Python
 
@@ -233,7 +233,7 @@ predictions = classifier.predict(X)
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Problème : ModuleNotFoundError
 
@@ -287,4 +287,4 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ---
 
-**Dernière mise à jour :** Décembre 2025
+**Dernière mise à jour :** 04 Décembre 2025

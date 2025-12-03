@@ -1,0 +1,6 @@
+from sklearn.svm import SVC
+from .base_model import BaseModel
+
+class SVMModel(BaseModel):
+    def __init__(self):
+        super().__init__(SVC(probability=True), "SVM")
