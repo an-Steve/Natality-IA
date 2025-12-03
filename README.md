@@ -1,70 +1,98 @@
 # Natality-IA : Projet d'Apprentissage Artificiel  
-*Réalisé par Anton Nelcon Steve & Cortada Lucas*  
+*Réalisé par ANTON NELCON Steve & CORTADA Lucas*  
 **Master 1 Informatique des Big Data – Université Paris 8**
 
 ---
+**→ SUJET :** Analyse et prédiction des taux de natalité mondiaux par apprentissage automatique
 
-## 🎯 Présentation du projet
+---
+
+**→ Problématique :** 
+Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale en utilisant des techniques d'apprentissage automatique, et peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?
+
+---
+
+**→ Objectifs:**
+    - Analyser l'évolution historique des taux de natalité (1960-2020)
+    - Comparer différents modèles de régression pour prédire les tendances
+    - Segmenter les pays en groupes selon leurs profils démographiques
+    - Générer des prédictions pour la décennie 2021-2030
+
+---
+
+## → Présentation du projet:
 
 **Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
 Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
 
+**Nom de la datashet utilisé :** fertility_rate.csv ( se situe dans le dossier data /raw)
+
 ---
 
-## 🚀 Quick Start
+## → La composition du Notebook
 
-### Installation
+Le projet est structuré autour de plusieurs notebooks Jupyter :
+
+1. **Prétraiement.ipynb.** :  Fichier Notebook test (ne pas prendre en compte).
+2. **ProjetIA_new.ipynb** :  Fichier Notebook ( prendre en compre ).
+3. **test.ipynb** : Fichier test .
+
+→ **C'est le fichier notebook ("ProjetIA_new.ipynb")** qui est le plus important pour le projet. 
+Il contient les instructions pour le prétraitement des données, l'entraînement des modèles et l'évaluation des performances et la prédictions . Il est structuré en plusieurs sections clés :
+
+| Section | Description |
+|---------|-------------|
+| 0 - Prétraitement des données | Analyse de la Datashet |
+| 1 - Analyser l'évolution historique des taux de natalité (1960-2020) | Affichage visuel des histogrammes |
+| 2 - Comparer différents modèles de régression pour prédire les tendances | Modèles utilisés : K-Means, Random Forest, etc. |
+| 3 - Segmenter les pays en groupes selon leurs profils démographiques | Affichage des résultats de segmentation |
+| 4 - Générer des prédictions pour la décennie 2021-2030 | Affichage des prédictions pour 2021-2030 |
+
+### → Installation
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/an-Steve/Natality-IA.git
 cd Natality-IA
 
-# 2. Create virtual environment (recommended)
+# 2. Création de l'environnement virtuel 
 python -m venv venv
 .\venv\Scripts\Activate.ps1  # Windows
+# venv\Scripts\Activate => Moi personnellement 
 # source venv/bin/activate    # Linux/Mac
 
-# 3. Install dependencies
+# 3. Installation des  dependences
 pip install -r requirements.txt
 ```
 
-### Get Sample Data
+### → Récupérer un échantillon de données
 
 ```bash
-# Option 1: Create sample data for testing
+# Option 1: Crer un simple data pour tester
 python scripts/download_sample_data.py --sample --countries 50
 
-# Option 2: Place your own fertility_rate.csv in data/raw/
+# Option 2: Placer le fichier fertility.csv dans le dossier data
 ```
 
-### Run Complete Pipeline
+###  → Run Complete Pipeline
 
 ```bash
 # Process data → Generate features → Train model → Make predictions
 python -m ProjetNatalite.main pipeline
 ```
 
-### Generate Visualizations
+### → Generate Visualizations
 
 ```bash
-# Create plots and figures
+# Creation de  plots et  figures
 python -m ProjetNatalite.plots
 ```
 
-**📖 For detailed usage instructions, see [USAGE.md](USAGE.md)**
+** For detailed usage instructions, see [USAGE.md](USAGE.md)**
 
 ---
 
-## 📊 Objectifs
-
-- Identifier les tendances de natalité à partir de données réelles  
-- Proposer des modèles prédictifs robustes et interprétables  
-- Mettre en lumière les disparités géographiques et les facteurs sociétaux  
-
----
-
-## ✨ Fonctionnalités
+## → Fonctionnalités
 
 - **Prétraitement des données** : collecte, nettoyage et structuration de jeux de données démographiques  
 - **Analyse statistique** : exploration des corrélations et visualisations interactives  
@@ -74,7 +102,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## 📁 Structure du projet
+## → Structure du projet
 
 ```
 Natality-IA/
@@ -116,13 +144,18 @@ Natality-IA/
 │
 ├── requirements.txt     # Dépendances Python
 ├── pyproject.toml      # Configuration du projet
-├── README.md           # Ce fichier
+├── README_NEW.md           # Ce fichier
 └── USAGE.md            # Guide d'utilisation détaillé
 ```
 
 ---
 
-## 🛠️ Technologies utilisées
+## → Images du Projet 
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+## →  Technologies utilisées
 
 - **Python 3.9.13**
 - **Pandas & NumPy** : Manipulation de données
@@ -134,7 +167,7 @@ Natality-IA/
 
 ---
 
-## 📈 Commandes principales
+## → Les  Commandes principales à exécuter 
 
 ### Pipeline complet
 ```bash
@@ -159,7 +192,7 @@ python -m ProjetNatalite.main predict-model
 python -m ProjetNatalite.plots
 ```
 
-### Options personnalisées
+### → Options personnalisées
 ```bash
 # Spécifier des chemins personnalisés
 python -m ProjetNatalite.main process-data \
@@ -175,7 +208,7 @@ python -m ProjetNatalite.modeling.train \
 
 ---
 
-## 📊 Résultats attendus
+## → Résultats attendus
 
 Le modèle de régression linéaire produit :
 
@@ -191,7 +224,7 @@ Le modèle de régression linéaire produit :
 
 ---
 
-## 📊 Visualisations générées
+## → Visualisations générées
 
 Le module `plots.py` crée automatiquement :
 
@@ -203,9 +236,9 @@ Le module `plots.py` crée automatiquement :
 
 ---
 
-## 🔍 Exemples d'utilisation
+## → Exemples d'utilisation
 
-### Utilisation en Python
+###  → Utilisation en Python
 
 ```python
 from ProjetNatalite.dataset import load_and_process_data
@@ -233,16 +266,14 @@ predictions = classifier.predict(X)
 
 ---
 
-## 🐛 Troubleshooting
-
-### Problème : ModuleNotFoundError
+##  → Résolution de problèmes
 
 ```bash
 # Solution : Installer en mode éditable
 pip install -e .
 ```
 
-### Problème : Fichier de données manquant
+### → Problème : Fichier de données manquant
 
 ```bash
 # Solution 1 : Créer des données d'exemple
@@ -252,7 +283,7 @@ python scripts/download_sample_data.py --sample
 # Assurez-vous qu'il s'appelle fertility_rate.csv
 ```
 
-### Problème : Erreurs d'import scikit-learn
+### → Problème : Erreurs d'import scikit-learn
 
 ```bash
 # Solution : Réinstaller les dépendances
@@ -263,28 +294,26 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-## 📧 Contact
+## Contact
 
 Pour toute question ou collaboration :  
 
-**ANTON NELCON Steve** – **Cortada Lucas**  
-Master 1 Informatique des Big Data  
-Université Paris 8
+| Nom | GitHub | Formation  en 2025-2026|
+|-----|--------|-----------|
+| ANTON NELCON Steve | [an-Steve](https://github.com/an-Steve) | Master 1 Informatique et Big Data - Université Paris 8 |
+| Cortada Lucas | [dododolan](https://github.com/dododolan) | Master 1 Informatique et Big Data - Université Paris 8 |
 
----
 
-## 📄 Licence
+## → Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-## 🙏 Remerciements
+## → Remerciements
 
-- Université Paris 8 - Master Informatique des Big Data
-- Communauté open-source (Scikit-learn, Pandas, etc.)
-- Sources de données démographiques
-
+- Université Paris 8 - Master Informatique et Big Data  Big Data
+- 
 ---
 
-**Dernière mise à jour :** Décembre 2025
+**Dernière mise à jour :** 04 Décembre 2025
