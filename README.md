@@ -47,27 +47,27 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 
 ---
 
-## → La composition du Notebook
+> ## → La composition du Notebook
+>
+> Le projet est structuré autour de plusieurs notebooks Jupyter :
 
-Le projet est structuré autour de plusieurs notebooks Jupyter :
-
-| Nom du fichier          | Description                                      | Statut                |
-|--------------------------|--------------------------------------------------|-----------------------|
-| **Prétraiement.ipynb**   | Notebook de test (ne pas prendre en compte)      |  A Ignorer            |
-| **ProjetIA_new.ipynb**   | Notebook principal (à prendre en compte)         | A  Utiliser           |
-| **test.ipynb**           | Fichier de test                                  | Pour Test               |
-
-
-→ **C'est le fichier notebook ("ProjetIA_new.ipynb")** qui est le plus important pour le projet. 
-Il contient les instructions pour le prétraitement des données, l'entraînement des modèles et l'évaluation des performances et la prédictions . Il est structuré en plusieurs sections clés :
-
-| Section | Description |
-|---------|-------------|
-| 0 - Prétraitement des données | Analyse de la Datashet |
-| 1 - Analyser l'évolution historique des taux de natalité (1960-2020) | Affichage visuel des histogrammes |
-| 2 - Comparer différents modèles de régression pour prédire les tendances | Modèles utilisés : K-Means, Random Forest, etc. |
-| 3 - Segmenter les pays en groupes selon leurs profils démographiques | Affichage des résultats de segmentation |
-| 4 - Générer des prédictions pour la décennie 2021-2030 | Affichage des prédictions pour 2021-2030 |
+> | Nom du fichier          | Description                                      | Statut                |
+> |--------------------------|--------------------------------------------------|-----------------------|
+> | **Prétraiement.ipynb**   | Notebook de test (ne pas prendre en compte)      |  A Ignorer            |
+> | **ProjetIA_new.ipynb**   | Notebook principal (à prendre en compte)         | A  Utiliser           |
+> | **test.ipynb**           | Fichier de test                                  | Pour Test               |
+>
+>
+> → **C'est le fichier notebook ("ProjetIA_new.ipynb")** qui est regarder. 
+> Il contient les instructions pour le prétraitement des données, l'entraînement des modèles et l'évaluation des performances et la prédictions . Il est structuré en plusieurs sections clés :
+>
+> | Section | Description |
+> |---------|-------------|
+> | 0 - Prétraitement des données | Analyse de la Datashet |
+> | 1 - Analyser l'évolution historique des taux de natalité (1960-2020) | Affichage visuel des histogrammes |
+> | 2 - Comparer différents modèles de régression pour prédire les tendances | Modèles utilisés : K-Means, Random Forest, etc. |
+> | 3 - Segmenter les pays en groupes selon leurs profils démographiques | Affichage des résultats de segmentation |
+> | 4 - Générer des prédictions pour la décennie 2021-2030 | Affichage des prédictions pour 2021-2030 |
 
 ### → Installation
 
