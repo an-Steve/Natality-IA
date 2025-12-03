@@ -47,22 +47,34 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 ---
 
 
-> ## → Arborescence du projet
-<img width="207" height="672" alt="image" src="https://github.com/user-attachments/assets/7d2f86d4-38f3-4065-b52d-83fa1ce75e32" />
+## → Arborescence du projet
 
-| Dossier               | Description                                                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| `data/`               | Données brutes et nettoyées (CSV, Excel, etc.) utilisées pour l’analyse     |
-| `models/`             | Modèles entraînés et sauvegardés (Pickle, Joblib, etc.)                     |
-| `notebooks/`          | Notebooks Jupyter pour l’analyse exploratoire, la modélisation et les tests |
-| `ProjetNatalite/`     | Code source principal du projet (fonctions, classes, pipelines)             |
-| `scripts/`            | Scripts Python modulaires pour automatiser les étapes du pipeline           |
-| `tests/`              | Scripts de test pour valider les fonctions et les modèles                   |
-| `reports/`            | Graphiques, tableaux, et rapports finaux générés                           |
-| `docs/`               | Documentation technique ou utilisateur                                      |
-| `references/`         | Sources académiques, articles, liens vers les datasets                     |
-| `.pytest_cache/`      | Cache généré par les tests unitaires (à ignorer dans Git)                   |
-| `venv/`               | Environnement virtuel Python local (à exclure du dépôt Git)                 |
+<table>
+  <tr>
+    <td>
+      <img width="207" height="672" alt="image" src="https://github.com/user-attachments/assets/7d2f86d4-38f3-4065-b52d-83fa1ce75e32" />
+    </td>
+    <td>
+
+      <table>
+        <tr><th>Dossier</th><th>Description</th></tr>
+        <tr><td><code>data/</code></td><td>Données brutes et nettoyées (CSV, Excel, etc.) utilisées pour l’analyse</td></tr>
+        <tr><td><code>models/</code></td><td>Modèles entraînés et sauvegardés (Pickle, Joblib, etc.)</td></tr>
+        <tr><td><code>notebooks/</code></td><td>Notebooks Jupyter pour l’analyse exploratoire, la modélisation et les tests</td></tr>
+        <tr><td><code>ProjetNatalite/</code></td><td>Code source principal du projet (fonctions, classes, pipelines)</td></tr>
+        <tr><td><code>scripts/</code></td><td>Scripts Python modulaires pour automatiser les étapes du pipeline</td></tr>
+        <tr><td><code>tests/</code></td><td>Scripts de test pour valider les fonctions et les modèles</td></tr>
+        <tr><td><code>reports/</code></td><td>Graphiques, tableaux, et rapports finaux générés</td></tr>
+        <tr><td><code>docs/</code></td><td>Documentation technique ou utilisateur</td></tr>
+        <tr><td><code>references/</code></td><td>Sources académiques, articles, liens vers les datasets</td></tr>
+        <tr><td><code>.pytest_cache/</code></td><td>Cache généré par les tests unitaires (à ignorer dans Git)</td></tr>
+        <tr><td><code>venv/</code></td><td>Environnement virtuel Python local (à exclure du dépôt Git)</td></tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
 
 
 
