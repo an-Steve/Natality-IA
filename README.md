@@ -108,7 +108,7 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 > | 3 - Segmenter les pays en groupes selon leurs profils démographiques | Affichage des résultats de segmentation |
 > | 4 - Générer des prédictions pour la décennie 2021-2030 | Affichage des prédictions pour 2021-2030 |
 
-> ##  Guide d’installation et d’exécution
+> ## → Guide d’installation et d’exécution
 >
 > Ce projet inclut toutes les étapes nécessaires pour installer l’environnement, récupérer les données, exécuter le pipeline complet et générer des visualisations.
 >
