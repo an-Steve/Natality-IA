@@ -215,6 +215,7 @@ Natality-IA/
   <img width="300" alt="image-1" src="image-1.png" />
   <img width="300" alt="image" src="https://github.com/user-attachments/assets/f0880c7c-7430-4085-b99b-b3a263b7756f" />
   <img width="300" alt="image-2" src="image-2.png" />
+  <img width="1386" height="386" alt="image" src="https://github.com/user-attachments/assets/5d550369-6ca4-49b0-afb9-6b33e9c7b848" />
 </p>
 
 
