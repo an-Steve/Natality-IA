@@ -9,6 +9,13 @@
 **→ Problématique :** 
 Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale en utilisant des techniques d'apprentissage automatique, et peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?
 
+## → Présentation du projet:
+
+**Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
+Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
+
+**Nom de la datashet utilisé :** fertility_rate.csv ( se situe dans le dossier data /raw)
+
 
 ##  Objectifs
 
@@ -19,15 +26,6 @@ Comment modéliser et prédire l'évolution des taux de natalité à l'échelle 
 | 3. | Regrouper les pays selon leurs profils démographiques  |
 | 4. | Générer des projections pour la période 2021–2030 |
 
-
----
-
-## → Présentation du projet:
-
-**Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
-Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
-
-**Nom de la datashet utilisé :** fertility_rate.csv ( se situe dans le dossier data /raw)
 
 ---
 
