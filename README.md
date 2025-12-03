@@ -1,5 +1,5 @@
 > ------------------------------------------------------------
-> #  Natality-IA : Projet d'Apprentissage Artificiel ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
+> #  Natality-IA : Projet d'Apprentissage Artificiel 
 > 
 > *Réalisé par **ANTON NELCON Steve** & **CORTADA Lucas***  
 > **Master 1 Informatique et Big Data – Université Paris 8**
@@ -221,13 +221,13 @@ Natality-IA/
 
 ## →  Technologies utilisées
 
-- **Python 3.9.13**
+- **Python 3.9.13** ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
 - **Pandas & NumPy** : Manipulation de données
 - **Scikit-learn** : Machine Learning
 - **Matplotlib & Seaborn** : Visualisations
 - **Loguru** : Logging avancé
 - **Typer** : Interface CLI
-- **Jupyter Notebook** : Exploration interactive
+- **Jupyter Notebook** : Exploration interactive ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 
 ---
 
