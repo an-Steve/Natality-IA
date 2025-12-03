@@ -71,7 +71,7 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
         <tr><td><code>venv/</code></td><td>Environnement virtuel Python local (à exclure du dépôt Git)</td></tr>
       </table>
 
-    </td>
+   </td>
   </tr>
 </table>
 
