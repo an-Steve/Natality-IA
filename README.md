@@ -56,7 +56,7 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
     </td>
     <td>
 
-      <table>
+  <table>
         <tr><th>Dossier</th><th>Description</th></tr>
         <tr><td><code>data/</code></td><td>Données brutes et nettoyées (CSV, Excel, etc.) utilisées pour l’analyse</td></tr>
         <tr><td><code>models/</code></td><td>Modèles entraînés et sauvegardés (Pickle, Joblib, etc.)</td></tr>
