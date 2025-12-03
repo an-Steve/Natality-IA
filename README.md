@@ -5,18 +5,20 @@
 
 ---
 **→ SUJET :** Analyse et prédiction des taux de natalité mondiaux par apprentissage automatique
----
 
 **→ Problématique :** 
 Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale en utilisant des techniques d'apprentissage automatique, et peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?
 
----
 
-**→ Objectifs:**
-    - Analyser l'évolution historique des taux de natalité (1960-2020)
-    - Comparer différents modèles de régression pour prédire les tendances
-    - Segmenter les pays en groupes selon leurs profils démographiques
-    - Générer des prédictions pour la décennie 2021-2030
+##  Objectifs
+
+| Objectif | Description |
+|----------|-------------|
+| 📊 Analyse historique | Étudier l’évolution des taux de natalité entre 1960 et 2020 |
+| 🤖 Modélisation | Évaluer et comparer plusieurs modèles de régression pour anticiper les tendances futures |
+| 🌐 Segmentation | Regrouper les pays selon leurs profils démographiques à l’aide de techniques de clustering |
+| 🔮 Prédictions | Générer des projections pour la période 2021–2030, accompagnées de visualisations comparatives |
+
 
 ---
 
