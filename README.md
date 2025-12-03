@@ -3,6 +3,7 @@
 > 
 > *Réalisé par **ANTON NELCON Steve** & **CORTADA Lucas***  
 > **Master 1 Informatique et Big Data – Université Paris 8**
+> ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 > ------------------------------------------------------------
 
 <div align="center">
