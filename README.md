@@ -113,7 +113,6 @@ A short description of the project.
 
 Pour toute question ou collaboration :  
 
-**Anton Nelcon Steve** – LinkedIn | GitHub  
-**Cortada Lucas** – LinkedIn  
+**ANTON NELCON Steve** –  **Cortada Lucas** 
 --------
 
