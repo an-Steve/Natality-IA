@@ -51,9 +51,12 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 
 Le projet est structuré autour de plusieurs notebooks Jupyter :
 
-1. **Prétraiement.ipynb.** :  Fichier Notebook test (ne pas prendre en compte).
-2. **ProjetIA_new.ipynb** :  Fichier Notebook ( prendre en compre ).
-3. **test.ipynb** : Fichier test .
+| Nom du fichier          | Description                                      | Statut                |
+|--------------------------|--------------------------------------------------|-----------------------|
+| **Prétraiement.ipynb**   | Notebook de test (ne pas prendre en compte)      |  A Ignorer            |
+| **ProjetIA_new.ipynb**   | Notebook principal (à prendre en compte)         | A  Utiliser           |
+| **test.ipynb**           | Fichier de test                                  | Pour Test               |
+
 
 → **C'est le fichier notebook ("ProjetIA_new.ipynb")** qui est le plus important pour le projet. 
 Il contient les instructions pour le prétraitement des données, l'entraînement des modèles et l'évaluation des performances et la prédictions . Il est structuré en plusieurs sections clés :
