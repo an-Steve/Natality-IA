@@ -212,9 +212,9 @@ Natality-IA/
 ## → Images du Projet 
 
 <p align="center">
-  <img width="200" alt="image-1" src="image-1.png" />
-  <img width="200" alt="image" src="https://github.com/user-attachments/assets/f0880c7c-7430-4085-b99b-b3a263b7756f" />
-  <img width="200" alt="image-2" src="image-2.png" />
+  <img width="400" alt="image-1" src="image-1.png" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/f0880c7c-7430-4085-b99b-b3a263b7756f" />
+  <img width="400" alt="image-2" src="image-2.png" />
 </p>
 
 
