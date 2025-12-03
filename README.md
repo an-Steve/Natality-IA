@@ -11,7 +11,7 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -56,7 +56,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## 📊 Objectifs
+##  Objectifs
 
 - Identifier les tendances de natalité à partir de données réelles  
 - Proposer des modèles prédictifs robustes et interprétables  
@@ -64,7 +64,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - **Prétraitement des données** : collecte, nettoyage et structuration de jeux de données démographiques  
 - **Analyse statistique** : exploration des corrélations et visualisations interactives  
@@ -74,7 +74,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 Natality-IA/
@@ -122,7 +122,7 @@ Natality-IA/
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **Python 3.9.13**
 - **Pandas & NumPy** : Manipulation de données
@@ -134,7 +134,7 @@ Natality-IA/
 
 ---
 
-## 📈 Commandes principales
+##  Commandes principales
 
 ### Pipeline complet
 ```bash
@@ -175,7 +175,7 @@ python -m ProjetNatalite.modeling.train \
 
 ---
 
-## 📊 Résultats attendus
+##  Résultats attendus
 
 Le modèle de régression linéaire produit :
 
@@ -191,7 +191,7 @@ Le modèle de régression linéaire produit :
 
 ---
 
-## 📊 Visualisations générées
+##  Visualisations générées
 
 Le module `plots.py` crée automatiquement :
 
@@ -203,7 +203,7 @@ Le module `plots.py` crée automatiquement :
 
 ---
 
-## 🔍 Exemples d'utilisation
+##  Exemples d'utilisation
 
 ### Utilisation en Python
 
@@ -233,7 +233,7 @@ predictions = classifier.predict(X)
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Problème : ModuleNotFoundError
 
@@ -263,7 +263,7 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-## 📧 Contact
+##  Contact
 
 Pour toute question ou collaboration :  
 
@@ -273,13 +273,13 @@ Université Paris 8
 
 ---
 
-## 📄 Licence
+##  Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-## 🙏 Remerciements
+##  Remerciements
 
 - Université Paris 8 - Master Informatique des Big Data
 - Communauté open-source (Scikit-learn, Pandas, etc.)
