@@ -1,22 +1,41 @@
-# PROJET D'APPRENTISSAGE ARTIFICIEL 
-Réalisé par ANTON NELCON Steve & CORTADA LUCAS - MASTER 1 INFORMATIQUE ET BIG DATA 
+# Natality-IA : Projet d’Apprentissage Artificiel  
+*Réalisé par Anton Nelcon Steve & Cortada Lucas*  
+**Master 1 Informatique des Big Data – Université Paris 8**
 
-<img width="713" height="568" alt="image" src="https://github.com/user-attachments/assets/f88e0c82-f30b-496f-9786-21304b70e2e0" />
+---
 
+## Présentation du projet
 
-##  Description
-Natality-IA est un projet  en apprentissage artificielle dans le cadre du Master Informatique et Big Data  appliqué à l’étude de la natalité.  
-L’objectif est d’analyser des données démographiques et de proposer des modèles prédictifs pour mieux comprendre les tendances de natalité à l’échelle internationale.
+**Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
+Il vise à analyser les dynamiques de natalité à l’échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
 
-##  Fonctionnalités
-- Collecte et nettoyage de données démographiques
-- Analyse statistique et visualisation interactive
-- Modèles de machine learning (TensorFlow/Keras)
-- Comparaisons internationales et impact sociétal
-- Interface ergonomique pour l’exploration des résultats
+---
 
+## Objectifs
 
+- Identifier les tendances de natalité à partir de données réelles  
+- Proposer des modèles prédictifs robustes et interprétables  
+- Mettre en lumière les disparités géographiques et les facteurs sociétaux  
 
+---
+
+## Fonctionnalités
+
+- Prétraitement des données : collecte, nettoyage et structuration de jeux de données démographiques  
+- Analyse statistique : exploration des corrélations et visualisations interactives  
+- Modélisation IA : implémentation de modèles supervisés avec TensorFlow et Keras  
+- Comparaisons internationales : étude comparative entre plusieurs zones géographiques  
+- Interface utilisateur : plateforme ergonomique pour l’exploration des résultats et des prédictions  
+
+---
+
+## Aperçu du projet
+
+![Natality-IA](https://github.com/user-attachments/assets/f88e0c82-f30b-496f-9786-21304b70e2e0)
+
+---
+
+## Structure du dépôt
 
 # project_name
 
@@ -77,5 +96,24 @@ A short description of the project.
     └── plots.py                <- Code to create visualizations
 ```
 
+
+---
+
+## Technologies utilisées
+
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- TensorFlow & Keras  
+- Jupyter Notebook  
+- Streamlit (interface)  
+- Git & GitHub  
+
+---
+
+## Contact
+
+Pour toute question ou collaboration :  
+
+**Anton Nelcon Steve** – LinkedIn | GitHub  
+**Cortada Lucas** – LinkedIn  
 --------
 
