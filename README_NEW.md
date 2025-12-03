@@ -4,16 +4,16 @@
 
 ---
 
-## 1.  Présentation du projet
+## →  Présentation du projet
 
 **Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
 Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
 
 ---
 
-##  Quick Start
+## →  Quick Start
 
-### Installation
+### → Installation
 
 ```bash
 # 1. Clone the repository
@@ -29,7 +29,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-### Get Sample Data
+### → Get Sample Data
 
 ```bash
 # Option 1: Create sample data for testing
@@ -38,25 +38,25 @@ python scripts/download_sample_data.py --sample --countries 50
 # Option 2: Place your own fertility_rate.csv in data/raw/
 ```
 
-### Run Complete Pipeline
+###  → Run Complete Pipeline
 
 ```bash
 # Process data → Generate features → Train model → Make predictions
 python -m ProjetNatalite.main pipeline
 ```
 
-### Generate Visualizations
+### → Generate Visualizations
 
 ```bash
 # Creation plots et  figures
 python -m ProjetNatalite.plots
 ```
 
-**📖 For detailed usage instructions, see [USAGE.md](USAGE.md)**
+** For detailed usage instructions, see [USAGE.md](USAGE.md)**
 
 ---
 
-## 📊 Objectifs
+## →  Objectifs
 
 - Identifier les tendances de natalité à partir de données réelles  
 - Proposer des modèles prédictifs robustes et interprétables  
@@ -64,7 +64,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## ✨ Fonctionnalités
+## →  Fonctionnalités
 
 - **Prétraitement des données** : collecte, nettoyage et structuration de jeux de données démographiques  
 - **Analyse statistique** : exploration des corrélations et visualisations interactives  
@@ -74,7 +74,7 @@ python -m ProjetNatalite.plots
 
 ---
 
-## 📁 Structure du projet
+## →  Structure du projet
 
 ```
 Natality-IA/
@@ -122,7 +122,7 @@ Natality-IA/
 
 ---
 
-## 🛠️ Technologies utilisées
+## →  Technologies utilisées
 
 - **Python 3.9.13**
 - **Pandas & NumPy** : Manipulation de données
@@ -134,7 +134,7 @@ Natality-IA/
 
 ---
 
-##  Les  Commandes principales à exécuter 
+## → Les  Commandes principales à exécuter 
 
 ### Pipeline complet
 ```bash
@@ -159,7 +159,7 @@ python -m ProjetNatalite.main predict-model
 python -m ProjetNatalite.plots
 ```
 
-### Options personnalisées
+### → Options personnalisées
 ```bash
 # Spécifier des chemins personnalisés
 python -m ProjetNatalite.main process-data \
@@ -175,7 +175,7 @@ python -m ProjetNatalite.modeling.train \
 
 ---
 
-##  Résultats attendus
+## → Résultats attendus
 
 Le modèle de régression linéaire produit :
 
@@ -191,7 +191,7 @@ Le modèle de régression linéaire produit :
 
 ---
 
-##  Visualisations générées
+## → Visualisations générées
 
 Le module `plots.py` crée automatiquement :
 
@@ -203,9 +203,9 @@ Le module `plots.py` crée automatiquement :
 
 ---
 
-##  Exemples d'utilisation
+## → Exemples d'utilisation
 
-### Utilisation en Python
+###  → Utilisation en Python
 
 ```python
 from ProjetNatalite.dataset import load_and_process_data
@@ -233,16 +233,16 @@ predictions = classifier.predict(X)
 
 ---
 
-##  Troubleshooting
+##  → Résolution de problèmes
 
-### Problème : ModuleNotFoundError
+### →  Problème : ModuleNotFoundError
 
 ```bash
 # Solution : Installer en mode éditable
 pip install -e .
 ```
 
-### Problème : Fichier de données manquant
+### → Problème : Fichier de données manquant
 
 ```bash
 # Solution 1 : Créer des données d'exemple
@@ -252,7 +252,7 @@ python scripts/download_sample_data.py --sample
 # Assurez-vous qu'il s'appelle fertility_rate.csv
 ```
 
-### Problème : Erreurs d'import scikit-learn
+### → Problème : Erreurs d'import scikit-learn
 
 ```bash
 # Solution : Réinstaller les dépendances
@@ -263,7 +263,7 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-## 📧 Contact
+##  Contact
 
 Pour toute question ou collaboration :  
 
@@ -273,18 +273,16 @@ Université Paris 8
 
 ---
 
-## 📄 Licence
+## →  Licence
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
-## 🙏 Remerciements
+## →  Remerciements
 
 - Université Paris 8 - Master Informatique des Big Data
-- Communauté open-source (Scikit-learn, Pandas, etc.)
-- Sources de données démographiques
-
+- 
 ---
 
-**Dernière mise à jour :** 04 Décembre 2025
+**Dernière mise à jour :** 03 Décembre 2025
