@@ -35,7 +35,7 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 
 
 
-##  Objectifs
+## → Objectifs
 
 | Objectif | Description |
 |----------|-------------|
@@ -45,7 +45,17 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 | 4. | Générer des projections pour la période 2021–2030 |
 
 ---
+## → Technologies utilisées
 
+- **Python 3.9.13** ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
+- **Pandas & NumPy** : Manipulation de données
+- **Scikit-learn** : Machine Learning
+- **Matplotlib & Seaborn** : Visualisations
+- **Loguru** : Logging avancé
+- **Typer** : Interface CLI
+- **Jupyter Notebook** : Exploration interactive ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+
+---
 
 ## → Arborescence du projet
 
@@ -74,9 +84,6 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
    </td>
   </tr>
 </table>
-
-
-
 
 ---
 
@@ -217,17 +224,6 @@ Natality-IA/
   <img width="300" alt="image-2" src="image-2.png" />
   <img width="1386" height="386" alt="image" src="https://github.com/user-attachments/assets/5d550369-6ca4-49b0-afb9-6b33e9c7b848" />
 </p>
-
-
-## →  Technologies utilisées
-
-- **Python 3.9.13** ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
-- **Pandas & NumPy** : Manipulation de données
-- **Scikit-learn** : Machine Learning
-- **Matplotlib & Seaborn** : Visualisations
-- **Loguru** : Logging avancé
-- **Typer** : Interface CLI
-- **Jupyter Notebook** : Exploration interactive ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 
 ---
 
