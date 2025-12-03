@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Présentation du projet
+##  Présentation du projet
 
 **Natality-IA** est un projet en apprentissage artificiel développé dans le cadre du Master Informatique et Big Data.  
 Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
