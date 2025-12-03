@@ -1,5 +1,5 @@
 > ------------------------------------------------------------
-> #  Natality-IA : Projet d'Apprentissage Artificiel  
+> #  Natality-IA : Projet d'Apprentissage Artificiel ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) 
 > 
 > *Réalisé par **ANTON NELCON Steve** & **CORTADA Lucas***  
 > **Master 1 Informatique et Big Data – Université Paris 8**
