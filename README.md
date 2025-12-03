@@ -44,6 +44,12 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 | 3. | Regrouper les pays selon leurs profils démographiques  |
 | 4. | Générer des projections pour la période 2021–2030 |
 
+---
+
+
+> ## → Arborescence du projet
+<img width="207" height="672" alt="image" src="https://github.com/user-attachments/assets/7d2f86d4-38f3-4065-b52d-83fa1ce75e32" />
+
 
 ---
 
