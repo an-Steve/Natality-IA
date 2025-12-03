@@ -30,6 +30,10 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 **Nom de la datashet utilisé :** fertility_rate.csv ( se situe dans le dossier data /raw)
 <img width="1483" height="900" alt="image" src="https://github.com/user-attachments/assets/86b7d2ae-7674-455b-9ee4-bbf353f8ca41" />
 
+[Fertility Rate (1960–2020)](https://www.kaggle.com/datasets/elmoallistair/fertility-rate-19602020)  
+*Source : Kaggle*
+
+
 
 ##  Objectifs
 
