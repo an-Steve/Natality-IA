@@ -50,6 +50,21 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 > ## → Arborescence du projet
 <img width="207" height="672" alt="image" src="https://github.com/user-attachments/assets/7d2f86d4-38f3-4065-b52d-83fa1ce75e32" />
 
+| Dossier               | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `data/`               | Données brutes et nettoyées (CSV, Excel, etc.) utilisées pour l’analyse     |
+| `models/`             | Modèles entraînés et sauvegardés (Pickle, Joblib, etc.)                     |
+| `notebooks/`          | Notebooks Jupyter pour l’analyse exploratoire, la modélisation et les tests |
+| `ProjetNatalite/`     | Code source principal du projet (fonctions, classes, pipelines)             |
+| `scripts/`            | Scripts Python modulaires pour automatiser les étapes du pipeline           |
+| `tests/`              | Scripts de test pour valider les fonctions et les modèles                   |
+| `reports/`            | Graphiques, tableaux, et rapports finaux générés                           |
+| `docs/`               | Documentation technique ou utilisateur                                      |
+| `references/`         | Sources académiques, articles, liens vers les datasets                     |
+| `.pytest_cache/`      | Cache généré par les tests unitaires (à ignorer dans Git)                   |
+| `venv/`               | Environnement virtuel Python local (à exclure du dépôt Git)                 |
+
+
 
 ---
 
