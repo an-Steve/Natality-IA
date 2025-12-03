@@ -13,14 +13,12 @@
 
 
 ---
-##  SUJET  
-**Analyse et prédiction des taux de natalité mondiaux par apprentissage automatique**
-
----
-
-##  Problématique  
-*Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale grâce à l'apprentissage automatique ?*  
-*Peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?*
+> ##  SUJET  
+> **Analyse et prédiction des taux de natalité mondiaux par apprentissage automatique**
+>
+> ##  Problématique  
+> *Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale grâce à l'apprentissage automatique ?*  
+> *Peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?*
 
 
 
