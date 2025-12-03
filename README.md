@@ -144,7 +144,7 @@ Natality-IA/
 │
 ├── requirements.txt     # Dépendances Python
 ├── pyproject.toml      # Configuration du projet
-├── README_NEW.md           # Ce fichier
+├── README.md           # Ce fichier
 └── USAGE.md            # Guide d'utilisation détaillé
 ```
 
