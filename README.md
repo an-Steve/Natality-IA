@@ -102,13 +102,13 @@ Il vise à analyser les dynamiques de natalité à l'échelle internationale à 
 > | 3 - Segmenter les pays en groupes selon leurs profils démographiques | Affichage des résultats de segmentation |
 > | 4 - Générer des prédictions pour la décennie 2021-2030 | Affichage des prédictions pour 2021-2030 |
 
-##  Guide d’installation et d’exécution
-
+> ##  Guide d’installation et d’exécution
+>
 > Ce projet inclut toutes les étapes nécessaires pour installer l’environnement, récupérer les données, exécuter le pipeline complet et générer des visualisations.
-
-Installation & Dépendances
----
-
+>
+> Installation & Dépendances
+>---
+>
 ```bash
 # 1. Clone the repository
 git clone https://github.com/an-Steve/Natality-IA.git
@@ -123,32 +123,32 @@ python -m venv venv
 # 3. Installation des  dependences
 pip install -r requirements.txt
 ```
-
- Récupérer un échantillon de données
-
+>
+> Récupérer un échantillon de données
+>
 ```bash
 # Option 1: Crer un simple data pour tester
 python scripts/download_sample_data.py --sample --countries 50
 
 # Option 2: Placer le fichier fertility.csv dans le dossier data
 ```
-
-  Pipeline Complet
-
+>
+> Pipeline Complet
+>
 ```bash
 # Process data → Generate features → Train model → Make predictions
 python -m ProjetNatalite.main pipeline
 ```
-
- Visualisation
-
+>
+> Visualisation
+>
 ```bash
 # Creation de  plots et  figures
 python -m ProjetNatalite.plots
 ```
-
-** For detailed usage instructions, see [USAGE.md](USAGE.md)**
-
+> 
+> ** For detailed usage instructions, see [USAGE.md](USAGE.md)**
+>
 ---
 
 ## → Fonctionnalités
