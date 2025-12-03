@@ -3,9 +3,9 @@
 
 <img width="1536" height="1024" alt="BCO 2248f240-15ee-4401-a024-54de62cb068c" src="https://github.com/user-attachments/assets/7ddbbb9d-e486-45b8-83ac-bacc2870354d" />
 
-
+---
 **→ SUJET :** Analyse et prédiction des taux de natalité mondiaux par apprentissage automatique
-
+---
 
 **→ Problématique :** 
 Comment modéliser et prédire l'évolution des taux de natalité à l'échelle mondiale en utilisant des techniques d'apprentissage automatique, et peut-on identifier des profils de pays similaires selon leurs tendances démographiques ?
