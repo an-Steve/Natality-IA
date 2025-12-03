@@ -14,10 +14,10 @@ Comment modéliser et prédire l'évolution des taux de natalité à l'échelle 
 
 | Objectif | Description |
 |----------|-------------|
-| 📊 Analyse historique | Étudier l’évolution des taux de natalité entre 1960 et 2020 |
-| 🤖 Modélisation | Évaluer et comparer plusieurs modèles de régression pour anticiper les tendances futures |
-| 🌐 Segmentation | Regrouper les pays selon leurs profils démographiques à l’aide de techniques de clustering |
-| 🔮 Prédictions | Générer des projections pour la période 2021–2030, accompagnées de visualisations comparatives |
+| 1.  | Étudier l’évolution des taux de natalité entre 1960 et 2020 |
+| 2. | Évaluer et comparer plusieurs modèles |
+| 3. | Regrouper les pays selon leurs profils démographiques  |
+| 4. | Générer des projections pour la période 2021–2030 |
 
 
 ---
