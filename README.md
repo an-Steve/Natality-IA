@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img width="100%" alt="Natality-IA Banner" src="https://github.com/user-attachments/assets/7ddbbb9d-e486-45b8-83ac-bacc2870354d" />
+<img width="600" alt="Natality-IA Banner" src="https://github.com/user-attachments/assets/7ddbbb9d-e486-45b8-83ac-bacc2870354d" />
 
 </div>
 
