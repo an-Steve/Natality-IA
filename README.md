@@ -15,6 +15,7 @@ Comment modéliser et prédire l'évolution des taux de natalité à l'échelle 
 Il vise à analyser les dynamiques de natalité à l'échelle internationale à travers des modèles prédictifs basés sur des données démographiques.
 
 **Nom de la datashet utilisé :** fertility_rate.csv ( se situe dans le dossier data /raw)
+Extrait de la base de données : <img width="1483" height="900" alt="image" src="https://github.com/user-attachments/assets/86b7d2ae-7674-455b-9ee4-bbf353f8ca41" />
 
 
 ##  Objectifs
