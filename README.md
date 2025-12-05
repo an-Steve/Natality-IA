@@ -214,6 +214,58 @@ Natality-IA/
 ```
 
 ---
+Arbre du Projet 
+Natality-IA/
+├── data/
+│   ├── raw/              # Données brutes (fertility_rate.csv)
+│   ├── processed/        # Données nettoyées et features
+│   ├── interim/          # Transformations intermédiaires
+│   └── external/         # Données tierces
+│
+├── models/               # Modèles entraînés (.pkl, .joblib)
+│
+├── notebooks/            # Jupyter notebooks
+│   ├── ProjetIA_new.ipynb    # 📌 Notebook principal
+│   ├── Prétraitement.ipynb   # Test (à ignorer)
+│   └── test.ipynb            # Fichier de test
+│
+├── ProjetNatalite/       # Code source principal
+│   ├── main.py           # Point d'entrée CLI
+│   ├── config.py         # Configuration et chemins
+│   ├── dataset.py        # Traitement des données
+│   ├── features.py       # Feature engineering
+│   ├── classification.py # Classes de modèles
+│   ├── plots.py          # Visualisations
+│   │
+│   ├── modeling/
+│   │   ├── train.py      # Pipeline d'entraînement
+│   │   └── predict.py    # Pipeline de prédiction
+│   │
+│   └── Classification Dossier/
+│       ├── linear_classifier.py
+│       ├── random_forest.py
+│       └── K-Means.py
+│
+├── reports/
+│   └── figures/          # Graphiques générés
+│
+├── scripts/
+│   └── download_sample_data.py  # Génération de données test
+│
+├── tests/                # Tests unitaires
+│
+├── docs/                 # Documentation
+├── references/           # Sources et articles
+│
+├── requirements.txt      # Dépendances Python
+├── pyproject.toml        # Configuration du projet
+├── Makefile              # Commandes automatisées
+├── run_pipeline.py       # Script d'exécution
+├── README.md             # Documentation principale
+├── USAGE.md              # Guide d'utilisation détaillé
+└── LICENSE               # Licence MIT
+
+---
 
 ## → Images du Projet 
 
