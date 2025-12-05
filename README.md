@@ -215,6 +215,8 @@ Natality-IA/
 
 ---
 Arbre du Projet 
+
+```
 Natality-IA/
 ├── data/
 │   ├── raw/              # Données brutes (fertility_rate.csv)
@@ -265,6 +267,7 @@ Natality-IA/
 ├── USAGE.md              # Guide d'utilisation détaillé
 └── LICENSE               # Licence MIT
 
+```
 ---
 
 ## → Images du Projet 
