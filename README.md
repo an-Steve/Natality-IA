@@ -227,7 +227,7 @@ Natality-IA/
 ├── models/               # Modèles entraînés (.pkl, .joblib)
 │
 ├── notebooks/            # Jupyter notebooks
-│   ├── ProjetIA_new.ipynb    # 📌 Notebook principal
+│   ├── ProjetIA_new.ipynb    #  Notebook principal
 │   ├── Prétraitement.ipynb   # Test (à ignorer)
 │   └── test.ipynb            # Fichier de test
 │
